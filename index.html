@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Q4Quiz2</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1><b>⋆ ༺ 𓆩 score analyzer 𓆪 ༻ ⋆</b></h1>
+    <hr>
+    <div class="mt-4">
+      <p>input your subject grades and click the "view score" to find your average</p>
+
+      <div class="row justify-content-center">
+
+        <div class="col md-2 card">
+          <div class="card-img sci-icon"></div>
+          <input type="number" id="sci" class="form-control" placeholder="science grade">
+        </div>
+
+          <br>
+
+        <div class="col md-2 card">
+          <div class="card-img math-icon"></div>
+          <input type="number" id="math" class="form-control" placeholder="math grade">
+        </div>
+
+          <br>
+
+        <div class="col md-2 card">
+          <div class="card-img eng-icon"></div>
+          <input type="number" id="eng" class="form-control" placeholder="english grade">
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-dark" onClick="viewS()">view score</button>
+      <button type="button" class="btn btn-dark" onClick="window.location.reload()">refresh</button>
+    </div>
+    <footer>
+      <hr>
+      <p id="ans-subjAve"></p>
+      <p><a style="text-decoration: none; color: #343540" href="LINK"> &#169; ay 2025 | ICT 9 Ruby | Q4 quiz 2 | Yao </a></p>
+    </footer>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+body {
+    font-family: "DM Serif Text", serif;
+    background-image: url(https://www.shutterstock.com/image-photo/water-texture-reflection-background-dark-600nw-1602246445.jpg);
+    background-size: cover;
+}
+
+img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 400px; 	
+}
+
+.container {
+    padding: 20px;
+    box-shadow: 10px 10px 40px 0px black;
+    border-radius: 20px;
+    margin-top: 100px;
+    max-width: 900px; 
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+div {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    color: #28242D;
+}
+
+.card {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #28242D;
+}
+
+
+footer {
+    margin: 0px;
+    padding: 0px;
+    color: #28242D;
+    text-align: center;
+}
+
+.card-img {
+  width: 80%;
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  }
+
+.sci-icon
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIrJGOVsIy_c1TKalMc6tn13y3pphqhmf2zA&s);
+}
+
+.math-icon
+{
+    background-image: url(https://png.pngtree.com/png-vector/20220617/ourmid/pngtree-math-icon-mathematics-abstract-black-png-image_5116099.png);
+}
+
+.eng-icon
+{
+    background-image: url(https://icons.veryicon.com/png/o/miscellaneous/myicons/book-209.png);
+}
+
